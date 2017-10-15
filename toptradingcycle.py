@@ -74,6 +74,6 @@ def topTradingCycles(agents, houses, agentPreferences, initialOwnership):
             while preferredHouse(a) not in G.vertices:
                currentPreferenceIndex[a] += 1
             G.addEdge(a, preferredHouse(a))
-
+   print(allocation)
    return allocation
 
